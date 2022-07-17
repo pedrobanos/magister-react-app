@@ -1,9 +1,5 @@
-import axios from 'axios'
+import apiHttp from "./BaseServiceApi";
+import imagesApiHttp from "./BaseServiceApiImages";
 
-const apiHttp = axios.create({
-    baseURL: "https://jsonplaceholder.typicode.com"
-})
-
-apiHttp.interceptors.response.use((response) => response.data);
-
-export default apiHttp
+export const getComments = () =>apiHttp.get('/comments')
+export const getPhotos = () => imagesApiHttp.get ('https://picsum.photos/v2/list?page=5&limit=10')
