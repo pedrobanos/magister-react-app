@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './views/Home';
 import './App.css';
 import Matricula from './views/Matricula';
+import Register from './views/Register';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element= { <Home />} />
         <Route path='/matricula' element= {<Matricula />} />
+        <Route path='/register' element={<Register/>} />
       </Routes>
     </div>
   );

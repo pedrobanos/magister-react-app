@@ -17,7 +17,7 @@ const Matricula = () => {
                     <h4>Para comenzar a <br/> especializarte,vamos a <br/>realizar unas preguntas para  <br/>darte el mejor servicio</h4>
                 </div>
                 <div className='col mt-4' >
-                <Link type="button" to='/registration'className="btn btn-outline-secondary">Comencemos</Link>
+                <Link type="button" to='/register'className="btn btn-outline-secondary">Comencemos</Link>
                 </div>
                 <div className='col mt-3'>
                 <Link style={{textDecoration:'none'}} to='/'><span>volver a atrás</span></Link>
