@@ -1,6 +1,7 @@
 import mindFullTeacher from '../assets/images/bcar_mindfulteacher.png'
 import studentsPic from '../assets/images/bcar_conted_22_a.jpeg'
 import personalStatementPic from '../assets/images/bcar_ug_personal_statement_0.jpeg'
+import './Slide.css'
 
 const Slide = () => {
     return (
@@ -14,22 +15,22 @@ const Slide = () => {
                 <div className="carousel-item active">
                     <img src={mindFullTeacher} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Lorem Ipsum</h5>
-                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                        <h5 className='text-shadow'>Lorem Ipsum</h5>
+                        <p className='text-shadow'>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={studentsPic} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5> Et sollicitudin ac orci phasellus egestas tellus rutrum tellus</h5>
-                        <p>Ornare lectus sit amet est placerat in egestas erat imperdiet. Amet consectetur adipiscing elit ut aliquam purus sit. Eu volutpat odio facilisis mauris sit amet</p>
+                        <h5 className='text-shadow'> Et sollicitudin ac orci phasellus egestas tellus rutrum tellus</h5>
+                        <p className='text-shadow'>Ornare lectus sit amet est placerat in egestas erat imperdiet. Amet consectetur adipiscing elit ut aliquam purus sit. Eu volutpat odio facilisis mauris sit amet</p>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src={personalStatementPic} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Enim diam vulputate ut pharetra sit amet aliquam</h5>
-                        <p>Quis commodo odio aenean sed adipiscing diam. Ac turpis egestas maecenas pharetra convallis posuere morbi.</p>
+                        <h5 className='text-shadow'>Enim diam vulputate ut pharetra sit amet aliquam</h5>
+                        <p className='text-shadow'>Quis commodo odio aenean sed adipiscing diam. Ac turpis egestas maecenas pharetra convallis posuere morbi.</p>
                     </div>
                 </div>
             </div>
