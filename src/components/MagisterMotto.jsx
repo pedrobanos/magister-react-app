@@ -11,11 +11,8 @@ const MagisterMotto = () => {
     useEffect(() => {
         getPhotos()
             .then(response => {
-
                 setPhotos(response)
-
             })
-
     }, [])
 
     useEffect(() => {

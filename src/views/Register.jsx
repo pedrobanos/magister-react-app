@@ -36,7 +36,7 @@ const schemaHor = yup.object({
 }).required()
 
 const schemaTar = yup.object({
-    tarifa: yup.string().required('select one product')
+    tarifa: yup.string().required('Select one product')
 }).required()
 
 const schema2 = yup.object({
